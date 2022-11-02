@@ -1,4 +1,4 @@
-package com.nagv.fruitgame;
+package com.ggc.fruitgame;
 
 import org.junit.Test;
 

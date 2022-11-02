@@ -1,4 +1,4 @@
-package com.nagv.fruitgame;
+package com.ggc.fruitgame;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.nagv.fruitgame", appContext.getPackageName());
+        assertEquals("com.ggc.fruitgame", appContext.getPackageName());
     }
 }
