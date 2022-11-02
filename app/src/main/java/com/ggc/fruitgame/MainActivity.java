@@ -14,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.nagv.fruitgame.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -68,9 +70,13 @@ public class MainActivity extends AppCompatActivity {
             BD.close();
         }
 
-        mp = MediaPlayer.create(this, R.raw.alphabet_song);
+
+
+        //MUSICA DEL JUEGO
+
+        /*mp = MediaPlayer.create(this, R.raw.alphabet_song);
         mp.start();
-        mp.setLooping(true);
+        mp.setLooping(true);*/
 
     }
 
