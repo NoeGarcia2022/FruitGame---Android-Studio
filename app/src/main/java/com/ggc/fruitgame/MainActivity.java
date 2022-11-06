@@ -39,19 +39,19 @@ public class MainActivity extends AppCompatActivity {
 
         int id;
         if(num_aleatorio == 0 || num_aleatorio == 10){
-            id = getResources().getIdentifier("mango", "drawable", getPackageName());
+            id = getResources().getIdentifier("aguacate", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 1 || num_aleatorio == 9){
-            id = getResources().getIdentifier("fresa", "drawable", getPackageName());
+            id = getResources().getIdentifier("banana", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 2 || num_aleatorio == 8){
-            id = getResources().getIdentifier("manzana", "drawable", getPackageName());
+            id = getResources().getIdentifier("cerezas", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 3 || num_aleatorio == 7){
-            id = getResources().getIdentifier("sandia", "drawable", getPackageName());
+            id = getResources().getIdentifier("kiwi", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 4 || num_aleatorio == 5 || num_aleatorio == 6){
-            id = getResources().getIdentifier("uva", "drawable", getPackageName());
+            id = getResources().getIdentifier("naranja", "drawable", getPackageName());
             iv_personaje.setImageResource(id);
         }
 
@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity {
         String nombre = et_nombre.getText().toString();
 
         if(!nombre.equals("")){
-            mp.stop();
-            mp.release();
+            //mp.stop();
+            //mp.release();
 
             Intent intent = new Intent(this, Main2Activity_Nivel1.class);
 

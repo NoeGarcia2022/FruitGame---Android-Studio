@@ -78,7 +78,7 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
 
             } else {
 
-                mp_bad.start();
+                //mp_bad.start();
                 vidas--;
                 BaseDeDatos();
 
@@ -99,8 +99,8 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
                         Intent intent = new Intent(this, MainActivity.class);
                         startActivity(intent);
                         finish();
-                        mp.stop();
-                        mp.release();
+                        //mp.stop();
+                        //mp.release();
                         break;
                 }
 
@@ -140,7 +140,7 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
         }
 
         //PARA PASAR A LOS DEMÁS NIVELES
-        /*else {
+        else {
             Intent intent = new Intent(this, Main2Activity_Nivel2.class);
 
             string_score = String.valueOf(score);
@@ -151,9 +151,9 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
 
             startActivity(intent);
             finish();
-            mp.stop();
-            mp.release();
-        }*/
+            //mp.stop();
+            //mp.release();
+        }
     }
 
     public void BaseDeDatos(){

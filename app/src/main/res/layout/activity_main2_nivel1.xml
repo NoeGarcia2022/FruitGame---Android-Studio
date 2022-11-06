@@ -89,11 +89,11 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="197dp"
         android:layout_toStartOf="@+id/imageView_NumDos"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/et_respuesta"
         android:inputType="number"
-        android:autofillHints=""
-        tools:targetApi="o"/>
+        tools:targetApi="o" />
 
     <Button
         android:id="@+id/button2"
