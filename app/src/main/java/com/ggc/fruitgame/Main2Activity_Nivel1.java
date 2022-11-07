@@ -52,12 +52,12 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
 
         //Musiaca de fondo del juego
 
-        /*mp = MediaPlayer.create(this, R.raw.goats);
+        mp = MediaPlayer.create(this, R.raw.goats);
         mp.start();
         mp.setLooping(true);
 
         mp_great = MediaPlayer.create(this, R.raw.wonderful);
-        mp_bad = MediaPlayer.create(this, R.raw.bad);*/
+        mp_bad = MediaPlayer.create(this, R.raw.bad);
 
         NumAleatorio();
     }
@@ -78,7 +78,7 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
 
             } else {
 
-                //mp_bad.start();
+                mp_bad.start();
                 vidas--;
                 BaseDeDatos();
 
@@ -99,8 +99,8 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
                         Intent intent = new Intent(this, MainActivity.class);
                         startActivity(intent);
                         finish();
-                        //mp.stop();
-                        //mp.release();
+                        mp.stop();
+                        mp.release();
                         break;
                 }
 
@@ -151,8 +151,8 @@ public class Main2Activity_Nivel1 extends AppCompatActivity {
 
             startActivity(intent);
             finish();
-            //mp.stop();
-            //mp.release();
+            mp.stop();
+            mp.release();
         }
     }
 

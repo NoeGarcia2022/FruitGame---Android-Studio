@@ -73,9 +73,9 @@ public class MainActivity extends AppCompatActivity {
 
         //MUSICA DEL JUEGO
 
-        /*mp = MediaPlayer.create(this, R.raw.alphabet_song);
+        mp = MediaPlayer.create(this, R.raw.alphabet_song);
         mp.start();
-        mp.setLooping(true);*/
+        mp.setLooping(true);
 
     }
 
@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity {
         String nombre = et_nombre.getText().toString();
 
         if(!nombre.equals("")){
-            //mp.stop();
-            //mp.release();
+            mp.stop();
+            mp.release();
 
             Intent intent = new Intent(this, Main2Activity_Nivel1.class);
 
