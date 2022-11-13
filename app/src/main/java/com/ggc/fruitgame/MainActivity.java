@@ -14,12 +14,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 
 
 public class MainActivity extends AppCompatActivity {
 
     private EditText et_nombre;
-    private ImageView iv_personaje;
+    private LottieAnimationView iv_personaje;
     private TextView tv_bestScore;
     private MediaPlayer mp;
 
@@ -31,29 +32,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         et_nombre = (EditText)findViewById(R.id.txt_nombre);
-        iv_personaje = (ImageView)findViewById(R.id.imageView_Personaje);
+        iv_personaje = (LottieAnimationView) findViewById(R.id.imageView_Personaje);
         tv_bestScore = (TextView)findViewById(R.id.textView_BestScore);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
-        int id;
+        /*int id;
         if(num_aleatorio == 0 || num_aleatorio == 10){
-            id = getResources().getIdentifier("aguacate", "drawable", getPackageName());
+            id = getResources().getIdentifier("limon.json", "assets", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 1 || num_aleatorio == 9){
-            id = getResources().getIdentifier("banana", "drawable", getPackageName());
+            id = getResources().getIdentifier("banana.json", "assets", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 2 || num_aleatorio == 8){
-            id = getResources().getIdentifier("cerezas", "drawable", getPackageName());
+            id = getResources().getIdentifier("durazno.json", "assets", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 3 || num_aleatorio == 7){
-            id = getResources().getIdentifier("kiwi", "drawable", getPackageName());
+            id = getResources().getIdentifier("naranja.json", "assets", getPackageName());
             iv_personaje.setImageResource(id);
         } else if(num_aleatorio == 4 || num_aleatorio == 5 || num_aleatorio == 6){
-            id = getResources().getIdentifier("naranja", "drawable", getPackageName());
+            id = getResources().getIdentifier("pera.json", "assets", getPackageName());
             iv_personaje.setImageResource(id);
-        }
+        }*/
 
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "BD", null, 1);
         SQLiteDatabase BD = admin.getWritableDatabase();

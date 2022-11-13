@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_3"
-    tools:context="com.ggc.fruitgame.Main2Activity_Nivel1">
+    tools:context=".Main2Activity_Nivel3">
 
     <TextView
         android:id="@+id/textView_nombre"
@@ -68,7 +67,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-2dp"
         android:contentDescription="@string/app_name"
-        app:srcCompat="@drawable/adicion" />
+        app:srcCompat="@drawable/resta" />
 
 
     <ImageView
@@ -89,11 +88,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="197dp"
         android:layout_toStartOf="@+id/imageView_NumDos"
-        android:autofillHints=""
         android:ems="10"
         android:hint="@string/et_respuesta"
         android:inputType="number"
-        tools:targetApi="o" />
+        android:autofillHints="" tools:targetApi="o"/>
 
     <Button
         android:id="@+id/button2"
