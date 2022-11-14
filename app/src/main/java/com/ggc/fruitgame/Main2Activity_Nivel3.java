@@ -145,8 +145,8 @@ public class Main2Activity_Nivel3 extends AppCompatActivity {
                 NumAleatorio();
             }
 
-        }/*else {
-            Intent intent = new Intent(this, Main2Activity_Nivel4.class);
+        }else {
+            Intent intent = new Intent(this, MainActivity2_Nivel4.class);
 
             string_score = String.valueOf(score);
             string_vidas = String.valueOf(vidas);
@@ -158,7 +158,7 @@ public class Main2Activity_Nivel3 extends AppCompatActivity {
             finish();
             mp.stop();
             mp.release();
-        }*/
+        }
     }
 
     public void BaseDeDatos(){

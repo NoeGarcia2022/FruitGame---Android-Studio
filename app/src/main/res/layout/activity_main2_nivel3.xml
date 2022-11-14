@@ -91,7 +91,8 @@
         android:ems="10"
         android:hint="@string/et_respuesta"
         android:inputType="number"
-        android:autofillHints="" tools:targetApi="o"/>
+        android:autofillHints=""
+        tools:targetApi="o"/>
 
     <Button
         android:id="@+id/button2"

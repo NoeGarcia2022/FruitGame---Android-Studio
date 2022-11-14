@@ -142,7 +142,7 @@ public class Main2Activity_Nivel2 extends AppCompatActivity {
 
 
 
-        }/*else {
+        }else {
             Intent intent = new Intent(this, Main2Activity_Nivel3.class);
 
             string_score = String.valueOf(score);
@@ -155,7 +155,7 @@ public class Main2Activity_Nivel2 extends AppCompatActivity {
             finish();
             mp.stop();
             mp.release();
-        }*/
+        }
     }
 
     public void BaseDeDatos(){
