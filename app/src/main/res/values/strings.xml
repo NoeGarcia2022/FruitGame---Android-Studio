@@ -2,10 +2,14 @@
     <string name="app_name">FruitGame</string>
     <string name="et_nombre">¿Cómo te llamas?</string>
     <string name="boton">Jugar</string>
+    <string name="botonIntrucciones">Tutorial</string>
 
     <string name="et_vidas">Manzanas: </string>
     <string name="jugador_nombre">Jugador:</string>
     <string name="total_score">Score: 0</string>
     <string name="boton_sumar">Comprobar</string>
     <string name="et_respuesta">Respuesta</string>
+    <string name="title_activity_instrucciones">InstruccionesActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>

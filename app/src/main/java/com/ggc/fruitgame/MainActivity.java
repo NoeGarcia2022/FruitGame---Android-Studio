@@ -101,6 +101,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void OnClickIntrucciones( View v){
+        Intent miIntent=new Intent(MainActivity.this, InstruccionesActivity.class);
+        startActivity(miIntent);
+    }
+
     @Override
     public void onBackPressed(){
 
