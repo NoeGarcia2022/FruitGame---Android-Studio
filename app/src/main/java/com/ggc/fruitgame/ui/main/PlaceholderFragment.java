@@ -14,6 +14,14 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.ggc.fruitgame.R;
 import com.ggc.fruitgame.databinding.FragmentInstruccionesBinding;
+import com.ggc.fruitgame.fragmentos.AmarilloFragment;
+import com.ggc.fruitgame.fragmentos.AquaFragment;
+import com.ggc.fruitgame.fragmentos.AzulFragment;
+import com.ggc.fruitgame.fragmentos.CelesteFragment;
+import com.ggc.fruitgame.fragmentos.GrisFragment;
+import com.ggc.fruitgame.fragmentos.MoradoFragment;
+import com.ggc.fruitgame.fragmentos.RojoFragment;
+import com.ggc.fruitgame.fragmentos.VerdeFragment;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -25,11 +33,20 @@ public class PlaceholderFragment extends Fragment {
     private PageViewModel pageViewModel;
     private FragmentInstruccionesBinding binding;
 
-    public static PlaceholderFragment newInstance(int index) {
-        PlaceholderFragment fragment = new PlaceholderFragment();
-        Bundle bundle = new Bundle();
-        bundle.putInt(ARG_SECTION_NUMBER, index);
-        fragment.setArguments(bundle);
+    public static Fragment newInstance(int index) {
+
+        Fragment fragment = null;
+
+        switch (index){
+            case 1:fragment=new RojoFragment();break;
+            case 2:fragment=new AmarilloFragment();break;
+            case 3:fragment=new AzulFragment();break;
+            case 4:fragment=new VerdeFragment();break;
+            case 5:fragment=new MoradoFragment();break;
+            case 6:fragment=new AquaFragment();break;
+            case 7:fragment=new GrisFragment();break;
+            case 8:fragment=new CelesteFragment();break;
+        }
         return fragment;
     }
 
