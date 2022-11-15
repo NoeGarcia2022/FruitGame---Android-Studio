@@ -77,4 +77,5 @@
         android:gravity="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp" />
+
 </RelativeLayout>

@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         mp.setLooping(true);
 
     }
-
+    //metodo jugar
     public void Jugar(View view){
         String nombre = et_nombre.getText().toString();
 

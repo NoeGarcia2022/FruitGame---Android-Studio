@@ -18,6 +18,10 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1796875" />
         <entry key="app/src/main/res/layout/activity_main2_nivel1.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main2_nivel2.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/activity_main2_nivel3.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/activity_main2_nivel4.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_main2_nivel5.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main2_nivel6.xml" value="0.33" />
       </map>
     </option>
   </component>
