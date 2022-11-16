@@ -3,18 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF41F"
+    android:background="@drawable/t2"
     android:gravity="center"
     tools:context=".fragmentos.AmarilloFragment">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tab_text_2"
-        android:textSize="100sp"
-        android:textStyle="bold"
-        android:textColor="@color/black"/>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>

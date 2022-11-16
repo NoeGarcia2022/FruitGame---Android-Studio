@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg3"
+    android:background="@drawable/bn"
     tools:context="com.ggc.fruitgame.MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
@@ -15,7 +15,7 @@
         android:layout_marginTop="30dp"
         android:contentDescription="@string/app_name"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="durazno.json"
+        app:lottie_fileName="9258-bouncing-fruits.json"
         app:lottie_imageAssetsFolder="assets"
         app:lottie_loop="true" />
 

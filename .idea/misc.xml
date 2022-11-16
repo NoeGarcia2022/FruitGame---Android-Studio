@@ -22,6 +22,12 @@
         <entry key="app/src/main/res/layout/activity_main2_nivel4.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_main2_nivel5.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main2_nivel6.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/fragment_amarillo.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/fragment_azul.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/fragment_instrucciones.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/fragment_rojo.xml" value="0.1796875" />
+        <entry key="app/src/main/res/layout/fragment_verde.xml" value="0.1796875" />
       </map>
     </option>
   </component>
