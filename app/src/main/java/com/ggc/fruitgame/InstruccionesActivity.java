@@ -55,7 +55,7 @@ public class InstruccionesActivity extends AppCompatActivity {
     }
 
     private void agregarIndicadorPuntos(int pos) {
-        puntosSlide=new TextView[8];
+        puntosSlide=new TextView[4];
         linearPuntos.removeAllViews();
 
         for (int i=0; i<puntosSlide.length; i++){
@@ -66,7 +66,7 @@ public class InstruccionesActivity extends AppCompatActivity {
             linearPuntos.addView(puntosSlide[i]);
         }
         if (puntosSlide.length>0){
-            puntosSlide[pos].setTextColor(getResources().getColor(R.color.white));
+            puntosSlide[pos].setTextColor(getResources().getColor(R.color.purple_700));
         }
     }
 

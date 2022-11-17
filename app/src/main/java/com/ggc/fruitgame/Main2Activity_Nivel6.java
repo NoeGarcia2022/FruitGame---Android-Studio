@@ -124,7 +124,7 @@ public class Main2Activity_Nivel6 extends AppCompatActivity {
     }
 
     public void NumAleatorio(){
-        if(score <= 69){
+        if(score <= 61){
 
             numAleatorio_uno = (int) (Math.random() * 10);
             numAleatorio_dos = (int) (Math.random() * 10);
@@ -158,7 +158,7 @@ public class Main2Activity_Nivel6 extends AppCompatActivity {
         }else {
             Intent intent = new Intent(this, MainActivity.class);
 
-            Toast.makeText(this, "¡Eres un genio!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "¡FELICIDADES ERES UN GENIO!", Toast.LENGTH_SHORT).show();
 
             startActivity(intent);
             finish();
