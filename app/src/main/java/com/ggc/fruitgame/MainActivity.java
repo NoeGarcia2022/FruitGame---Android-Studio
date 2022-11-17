@@ -2,11 +2,13 @@ package com.ggc.fruitgame;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -106,8 +108,29 @@ public class MainActivity extends AppCompatActivity {
         startActivity(miIntent);
     }
 
-    @Override
+    /*@Override
     public void onBackPressed(){
 
+    }*/
+
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK){
+            new android.app.AlertDialog.Builder(this)
+                    .setIcon(R.drawable.ic_close)
+                    .setTitle("Warning")
+                    .setMessage("¿SALIR DE FRUITGAME?")
+                    .setNegativeButton(android.R.string.cancel, null)
+                    .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener()
+                    {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            finishAffinity();
+                        }
+                    })
+                    .show();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 }

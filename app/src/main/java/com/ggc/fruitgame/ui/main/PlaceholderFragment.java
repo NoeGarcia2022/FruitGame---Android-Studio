@@ -12,14 +12,9 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.ggc.fruitgame.R;
 import com.ggc.fruitgame.databinding.FragmentInstruccionesBinding;
 import com.ggc.fruitgame.fragmentos.AmarilloFragment;
-import com.ggc.fruitgame.fragmentos.AquaFragment;
 import com.ggc.fruitgame.fragmentos.AzulFragment;
-import com.ggc.fruitgame.fragmentos.CelesteFragment;
-import com.ggc.fruitgame.fragmentos.GrisFragment;
-import com.ggc.fruitgame.fragmentos.MoradoFragment;
 import com.ggc.fruitgame.fragmentos.RojoFragment;
 import com.ggc.fruitgame.fragmentos.VerdeFragment;
 
@@ -42,10 +37,7 @@ public class PlaceholderFragment extends Fragment {
             case 2:fragment=new AmarilloFragment();break;
             case 3:fragment=new AzulFragment();break;
             case 4:fragment=new VerdeFragment();break;
-            case 5:fragment=new MoradoFragment();break;
-            case 6:fragment=new AquaFragment();break;
-            case 7:fragment=new GrisFragment();break;
-            case 8:fragment=new CelesteFragment();break;
+
         }
         return fragment;
     }

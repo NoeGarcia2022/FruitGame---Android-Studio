@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreen"
     android:orientation="vertical"
-    android:background="@color/black"
+    android:background="@drawable/bg3"
     android:gravity="center">
 
     <ImageView
@@ -14,16 +14,16 @@
         android:layout_width="193dp"
         android:layout_height="167dp"
         android:layout_gravity="center"
-        app:srcCompat="@drawable/logo_splash_screen" />
+        app:srcCompat="@drawable/logo_app" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_Splash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="@font/aclonica"
         android:text="FRUITGAME"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="60sp"
         android:textStyle="bold" />
 
